@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Biuro nieruchomości Dębica - domy, mieszkania, działki | ROTEX od 1992</title>
+<meta name="description" content="Agencja Nieruchomości ROTEX, Dębica, Rynek 18. Domy, mieszkania, działki i lokale z Dębicy i okolicy. Licencja nr 227, transakcje ubezpieczone do 0,5 mln zł.">
+<meta name="theme-color" content="#C4A04A">
+<link rel="preload" href="fonts/montserrat-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/debica-z-drona-960.webp" imagesrcset="img/debica-z-drona-640.webp 640w, img/debica-z-drona-960.webp 960w, img/debica-z-drona-1440.webp 1440w, img/debica-z-drona-1920.webp 1920w" imagesizes="(max-width: 899px) 220vw, 1960px" fetchpriority="high">
+<style>
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--zloto:#C4A04A;--zloto-c:#8A6A22;--zloto-j:#E8D890;--srebro:#DCDFDC;--grafit:#1B1C1E;--tekst:#22242A;--szary:#5B5F67;--tlo:#F1F2F4;--linia:#DFE1E5;--head:72px;--w:1240px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:var(--head)}
+body{margin:0;font:1rem/1.6 Manrope,"Segoe UI",Arial,sans-serif;color:var(--tekst);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Montserrat,Manrope,Arial,sans-serif;font-weight:700;line-height:1.15;margin:0;color:var(--grafit)}
+h2{font-size:clamp(1.65rem,1.2rem + 1.6vw,2.5rem);letter-spacing:-.01em}
+h3{font-size:1.15rem}
+p{margin:0 0 1em}
+.wrap{width:min(var(--w),100% - 40px);margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 26px;font:600 1rem/1 Montserrat,Manrope,sans-serif;text-decoration:none;border:2px solid var(--grafit);background:var(--grafit);color:#fff;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:#000;border-color:#000}
+.btn-jasny{background:transparent;color:var(--grafit)}
+.btn-jasny:hover{background:var(--grafit);color:#fff}
+.btn-zloty{background:var(--zloto);border-color:var(--zloto);color:var(--grafit)}
+.btn-zloty:hover{background:#D3B262;border-color:#D3B262}
+.btn svg{width:18px;height:12px;flex:none}
+/* szczyt dachu z logo jako znak list */
+.dach{list-style:none;padding:0;margin:0}
+.dach li{position:relative;padding-left:30px;margin:0 0 .7em}
+.dach li::before{content:"";position:absolute;left:0;top:.42em;width:16px;height:10px;background:var(--zloto);clip-path:polygon(50% 0,100% 80%,86% 100%,50% 36%,14% 100%,0 80%)}
+.sekcja{padding:clamp(64px,8vw,112px) 0}
+.szara{background:var(--tlo)}
+.tytul{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px 40px;margin-bottom:clamp(28px,4vw,48px)}
+.tytul p{max-width:560px;color:var(--szary);margin:0}
+/* linia dachu: separator pod tytułem */
+.krokiew{display:block;width:88px;height:14px;margin-top:16px;color:var(--zloto)}
+
+/* nagłówek */
+.naglowek{position:sticky;top:0;z-index:50;height:var(--head);background:#fff;border-bottom:1px solid var(--linia)}
+.naglowek .wrap{height:100%;display:flex;align-items:center;gap:24px;width:min(1480px,100% - 40px)}
+.logo{display:block;flex:none;width:104px;height:59px;text-decoration:none}
+.logo svg{width:100%;height:100%;display:block}
+.menu{display:flex;gap:4px;margin-left:auto;align-items:center}
+.menu a{position:relative;padding:10px 12px;font:600 .95rem/1 Montserrat,Manrope,sans-serif;text-decoration:none;color:var(--grafit)}
+.menu a::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2px;background:var(--zloto);transform:scaleX(0);transition:transform .2s}
+.menu a:hover::after,.menu a.akt::after{transform:scaleX(1)}
+.tel-gora{display:inline-flex;align-items:center;gap:10px;margin-left:14px;padding:0 18px;height:46px;background:var(--zloto);color:var(--grafit);font:700 1rem/1 Montserrat,Manrope,sans-serif;text-decoration:none;white-space:nowrap}
+.tel-gora svg{width:17px;height:17px}
+.burger{display:none;margin-left:auto;width:48px;height:48px;border:0;background:none;cursor:pointer;padding:12px}
+.burger span{display:block;height:2px;background:var(--grafit);margin:6px 0;transition:transform .2s,opacity .2s}
+.otwarte .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.otwarte .burger span:nth-child(2){opacity:0}
+.otwarte .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+
+/* pierwszy ekran */
+.hero{position:relative;height:clamp(560px,calc(100svh - var(--head)),900px);overflow:hidden;background:var(--zloto)}
+.hero-foto{position:absolute;top:0;right:0;bottom:0;width:min(60vw,1160px);margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.hero-dach,.hero-pole{position:absolute;top:0;bottom:0;left:0}
+.hero-pole{right:calc(min(60vw,1160px) - 150px);background:var(--zloto) url(img/fasety.svg) center/cover;clip-path:polygon(0 0,100% 0,calc(100% - 150px) 100%,0 100%);display:flex;align-items:center}
+.hero-dach{right:calc(min(60vw,1160px) - 166px);background:var(--srebro);clip-path:polygon(0 0,100% 0,calc(100% - 150px) 100%,0 100%)}
+.hero-tekst{width:min(40rem,100% - 170px);margin-left:max(20px,calc((100vw - 1480px)/2 + 20px));padding:40px 0}
+.hero h1{font-size:clamp(2rem,1.1rem + 2.3vw,3.5rem);line-height:1.08;letter-spacing:-.015em}
+.hero h1 span{display:block;font-weight:600;font-size:.52em;line-height:1.3;margin-top:.55em;letter-spacing:0}
+.hero .lead{font-size:clamp(1rem,.95rem + .25vw,1.15rem);max-width:520px;margin:22px 0 30px;color:#2A2410}
+.hero-przyciski{display:flex;flex-wrap:wrap;gap:12px}
+.hero-fakty{margin:26px 0 0;font-size:.92rem;color:#3A3115}
+
+/* kategorie */
+.kategorie{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.kat{position:relative;display:block;text-decoration:none;color:#fff;overflow:hidden;background:var(--grafit)}
+.kat img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .5s}
+.kat:hover img{transform:scale(1.03)}
+.kat-opis{position:absolute;left:0;right:0;bottom:0;padding:48px 20px 18px;background:linear-gradient(transparent,rgba(17,18,20,.82))}
+.kat h3{color:#fff;font-size:1.35rem}
+.kat p{margin:4px 0 0;font-size:.92rem;color:#E9E9E9}
+.kat::before{content:"";position:absolute;z-index:1;top:0;left:0;width:56px;height:30px;background:var(--zloto);clip-path:polygon(0 0,100% 0,0 100%)}
+
+/* oferty - karuzela */
+.karuzela{position:relative}
+.tor{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.oferta{flex:0 0 min(400px,82vw);scroll-snap-align:start;background:#fff;display:flex;flex-direction:column;user-select:none}
+.oferta figure{margin:0;overflow:hidden;background:#ddd}
+.oferta img{width:100%;aspect-ratio:13/6;object-fit:cover;pointer-events:none}
+.oferta-in{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.oferta .gdzie{font-size:.88rem;color:var(--szary);margin:0 0 6px}
+.oferta h3{font-size:1.08rem;line-height:1.3;margin-bottom:14px}
+.oferta dl{display:flex;gap:18px;margin:0 0 16px;font-size:.92rem}
+.oferta dt{color:var(--szary);font-size:.8rem}
+.oferta dd{margin:0;font-weight:700}
+.cena{margin-top:auto;padding-top:14px;border-top:1px solid var(--linia);font:700 1.3rem/1.2 Montserrat,Manrope,sans-serif;color:var(--grafit)}
+.strzalki{display:flex;gap:10px}
+.strzalki button{width:52px;height:52px;border:2px solid var(--grafit);background:#fff;cursor:pointer;display:grid;place-items:center}
+.strzalki button:hover{background:var(--grafit);color:#fff}
+.strzalki svg{width:20px;height:14px}
+.pod-tor{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:28px;flex-wrap:wrap}
+
+/* sprzedaż */
+.dwie{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,6vw,96px);align-items:start}
+.warunki{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:2px solid var(--grafit);margin:28px 0 32px}
+.warunki div{padding:18px 18px 18px 0;border-bottom:1px solid var(--linia)}
+.warunki div:nth-child(2n){padding-left:18px;border-left:1px solid var(--linia)}
+.warunki b{display:block;font:700 1.45rem/1.2 Montserrat,Manrope,sans-serif;color:var(--grafit)}
+.warunki span{font-size:.9rem;color:var(--szary)}
+.szukamy{background:var(--tlo);padding:clamp(24px,3vw,40px)}
+.szukamy h3{margin-bottom:18px;font-size:1.3rem}
+.szukamy li{font-size:.97rem}
+
+/* inwestycje */
+.inwest{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.inwest figure{margin:0;overflow:hidden}
+.inwest img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.inwest-tekst{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);margin-top:clamp(32px,4vw,56px)}
+
+/* Dębica z drona - jedyna ciemna sekcja */
+.dron{background:var(--grafit);color:#D9DBDF}
+.dron h2,.dron h3{color:#fff}
+.dron .tytul p{color:#B9BCC2}
+.dron-uklad{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px;align-items:stretch}
+.dron figure{margin:0;position:relative;overflow:hidden}
+.dron figure img{width:100%;height:100%;object-fit:cover}
+.dron figcaption{position:absolute;left:0;bottom:0;padding:10px 16px;background:rgba(27,28,30,.86);font-size:.88rem;color:#E6E6E6}
+.dron-bok{display:flex;flex-direction:column;gap:20px}
+.dron-bok figure{flex:1;min-height:220px}
+.dron-bok figure img{position:absolute;inset:0}
+.dron-info{background:#26282B;padding:24px 24px 18px}
+.dron-info p{margin:0 0 .8em;font-size:.97rem}
+
+/* o nas */
+.fakty{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid var(--grafit)}
+.fakty div{padding:24px 24px 24px 0;border-bottom:1px solid var(--linia)}
+.fakty div+div{padding-left:24px;border-left:1px solid var(--linia)}
+.fakty h3{font-size:1.05rem;margin-bottom:8px}
+.fakty p{margin:0;color:var(--szary);font-size:.95rem}
+.cytat{font:600 clamp(1.2rem,1rem + .8vw,1.6rem)/1.45 Montserrat,Manrope,sans-serif;color:var(--grafit);max-width:900px;margin:0 0 clamp(32px,4vw,48px)}
+
+/* kontakt */
+.kontakt-uklad{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,80px)}
+.dane{font-size:1.02rem}
+.dane a{text-decoration:none;font-weight:700}
+.dane .tel{display:block;font:700 clamp(1.4rem,1.1rem + 1vw,1.9rem)/1.3 Montserrat,Manrope,sans-serif;color:var(--grafit)}
+.dane p{margin:0 0 18px}
+.mapa{margin-top:24px;aspect-ratio:16/10;background:#E3E5E8 url(img/debica-kosciol-800.webp) center/cover;position:relative;display:grid;place-items:center}
+.mapa button{position:relative;z-index:1}
+.mapa::before{content:"";position:absolute;inset:0;background:rgba(241,242,244,.55)}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:2}
+form{background:#fff;padding:clamp(22px,3vw,40px)}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+label{display:block;font-size:.88rem;font-weight:600;margin-bottom:6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:12px 14px;border:1px solid #C9CCD2;background:#fff;color:var(--tekst);border-radius:0}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--zloto);outline-offset:0;border-color:var(--zloto)}
+textarea{min-height:120px;resize:vertical}
+.cale{grid-column:1/-1}
+.zgoda{display:flex;gap:10px;font-size:.84rem;color:var(--szary);font-weight:400;align-items:flex-start}
+.zgoda input{width:18px;height:18px;flex:none;margin-top:2px}
+.komunikat{margin:14px 0 0;font-size:.92rem;color:var(--zloto-c);font-weight:600}
+
+/* stopka */
+.stopka{background:#E9EBEE;color:#3C4048;padding:56px 0 28px;font-size:.94rem}
+.stopka-siatka{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:32px}
+.stopka h3{font-size:.98rem;margin-bottom:12px}
+.stopka a{text-decoration:none}
+.stopka a:hover{text-decoration:underline}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{margin-bottom:6px}
+.stopka-dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:40px;padding-top:20px;border-top:1px solid #D3D6DB;font-size:.86rem}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* pasek na telefonie po przewinięciu */
+.mob{display:none}
+.cookies{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;max-width:620px;margin-inline:auto;background:#fff;border:1px solid var(--linia);box-shadow:0 6px 24px rgba(0,0,0,.12);padding:14px 16px;display:flex;gap:14px;align-items:center;font-size:.86rem;line-height:1.45}
+.cookies[hidden]{display:none}
+.cookies p{margin:0}
+.cookies button{flex:none;min-height:42px;padding:0 16px;font-size:.9rem}
+
+@media (max-width:1180px){
+  .menu{display:none}
+  .burger{display:block;margin-left:0}
+  .tel-gora{margin-left:auto}
+  .otwarte .menu{display:flex;position:fixed;top:var(--head);left:0;right:0;bottom:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:12px 20px 40px;overflow:auto}
+  .otwarte .menu a{padding:18px 4px;font-size:1.15rem;border-bottom:1px solid var(--linia)}
+  .otwarte .menu a::after{left:4px;right:auto;width:40px;bottom:-1px}
+}
+@media (max-width:1100px){
+  .kategorie{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stopka-siatka{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:899px){
+  :root{--head:64px}
+  .logo{width:92px;height:52px}
+  .hero{height:auto;min-height:calc(100svh - var(--head));display:flex;flex-direction:column;background:var(--zloto) url(img/fasety.svg) center/cover}
+  .hero-foto{position:relative;width:100%;flex:0 0 auto;height:min(38svh,290px);clip-path:polygon(0 0,100% 0,100% 82%,0 100%)}
+  .hero-foto img{position:absolute;inset:0}
+  .hero-dach{display:none}
+  .hero-pole{position:relative;right:auto;clip-path:none;background:none;flex:1 1 auto;display:flex;align-items:center;margin-top:-2px}
+  .hero-tekst{width:auto;margin:0;padding:6px 20px 24px}
+  .hero h1{font-size:clamp(1.6rem,1.05rem + 2.6vw,2.4rem)}
+  .hero h1 span{font-size:.6em;margin-top:.45em}
+  .hero .lead{margin:12px 0 24px;font-size:.98rem;line-height:1.5}
+  .hero-fakty{display:none}
+  .hero-przyciski .btn{flex:1 1 auto}
+  .dwie,.inwest-tekst,.kontakt-uklad,.dron-uklad{grid-template-columns:minmax(0,1fr)}
+  .inwest{grid-template-columns:minmax(0,1fr)}
+  .fakty{grid-template-columns:minmax(0,1fr)}
+  .fakty div+div{padding-left:0;border-left:0}
+  .mob{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--linia);padding:10px 12px calc(10px + env(safe-area-inset-bottom));gap:10px;transform:translateY(110%);transition:transform .25s}
+  .mob.widac{transform:none}
+  .mob .btn{flex:1;min-height:48px;padding:0 12px}
+  body{padding-bottom:0}
+}
+@media (max-width:560px){
+  .wrap{width:calc(100% - 32px)}
+  .naglowek .wrap{width:calc(100% - 24px);gap:8px}
+  .tel-gora{padding:0 12px;height:42px;font-size:.92rem}
+  .tel-gora .nr{display:none}
+  .kategorie{gap:10px}
+  .kat-opis{padding:36px 12px 12px}
+  .kat h3{font-size:1.05rem}
+  .kat p{display:none}
+  .kat::before{width:40px;height:22px}
+  .warunki{grid-template-columns:minmax(0,1fr)}
+  .warunki div:nth-child(2n){padding-left:0;border-left:0}
+  .pola{grid-template-columns:minmax(0,1fr)}
+  .stopka-siatka{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
+  .stopka-siatka>div:first-child{grid-column:1/-1}
+  .cookies{flex-direction:column;align-items:stretch;gap:10px;left:8px;right:8px;bottom:8px}
+}
+@media (max-width:899px) and (max-height:700px){
+  .hero-foto{height:30svh}
+  .hero .lead{margin:8px 0 24px;font-size:.93rem}
+  .hero-tekst{padding-bottom:18px}
+}
+@media (max-width:899px) and (min-height:780px){
+  .hero h1{font-size:clamp(2rem,1.2rem + 3.2vw,2.6rem)}
+  .hero .lead{font-size:1.05rem;margin:16px 0 28px}
+  .hero-fakty{display:block;margin-top:22px;font-size:.9rem}
+  .hero-foto{height:min(36svh,293px)}
+}
+@media (min-width:900px) and (max-height:760px){
+  .hero .lead{margin:16px 0 22px}
+  .hero-fakty{margin-top:18px}
+}
+@media (min-width:1800px){html{font-size:17px}:root{--w:1440px}}
+@media (min-width:2300px){html{font-size:19px}:root{--w:1600px;--head:80px}.logo{width:124px;height:70px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="naglowek" id="gora">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="ROTEX Nieruchomości Dębica - strona główna">
+      <svg viewBox="0 0 302 170" role="img" aria-hidden="true">
+        <rect width="302" height="170" fill="#C4A04A"/>
+        <image href="img/fasety.svg" width="302" height="170" preserveAspectRatio="xMidYMid slice"/>
+        <g fill="#6F6F6B" transform="translate(3 3)"><path d="M64 76 133 27l9 6-66 44Z"/><path d="M128 12h19l117 140-13 5Z"/><path d="M164 27h18v31l-18-20Z"/><text x="115" y="72" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="21">1992</text><text x="62" y="106" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="37">ROTEX</text></g>
+        <g fill="#E2E4E1"><path d="M64 76 133 27l9 6-66 44Z"/><path d="M128 12h19l117 140-13 5Z"/><path d="M164 27h18v31l-18-20Z"/><text x="115" y="72" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="21">1992</text><text x="62" y="106" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="37">ROTEX</text></g>
+      </svg>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#oferty">Domy</a>
+      <a href="#oferty">Mieszkania</a>
+      <a href="#oferty">Działki</a>
+      <a href="#oferty">Lokale</a>
+      <a href="#inwestycje">Nowe domy</a>
+      <a href="#sprzedaz">Sprzedaj z nami</a>
+      <a href="#o-nas">O nas</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel-gora" href="tel:+48501530661"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg><span class="nr">501 530 661</span></a>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-label="Biuro nieruchomości ROTEX w Dębicy">
+  <figure class="hero-foto">
+    <img src="img/debica-z-drona-960.webp" srcset="img/debica-z-drona-640.webp 640w, img/debica-z-drona-960.webp 960w, img/debica-z-drona-1440.webp 1440w, img/debica-z-drona-1920.webp 1920w" sizes="(max-width: 899px) 220vw, 1960px" width="1920" height="880" alt="Dębica z lotu ptaka - ujęcie z drona biura ROTEX" fetchpriority="high">
+  </figure>
+  <div class="hero-dach" aria-hidden="true"></div>
+  <div class="hero-pole">
+    <div class="hero-tekst">
+      <h1>Biuro nieruchomości w&nbsp;Dębicy<span>Znamy to miasto z góry i z bliska, od 1992&nbsp;roku</span></h1>
+      <p class="lead">Domy, mieszkania, działki i lokale z Dębicy i okolicy. Prowadzimy sprzedaż od pierwszej rozmowy do aktu notarialnego.</p>
+      <div class="hero-przyciski">
+        <a class="btn" href="#oferty">Zobacz oferty <svg viewBox="0 0 18 12" aria-hidden="true"><path d="M0 6h16M11 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+        <a class="btn btn-jasny" href="#sprzedaz">Sprzedaję nieruchomość</a>
+      </div>
+      <p class="hero-fakty">Rynek 18, Dębica &middot; pon.-pt. 10-16 &middot; licencja nr 227</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="kategorie" aria-labelledby="kat-t">
+  <div class="wrap">
+    <div class="tytul">
+      <div><h2 id="kat-t">Czego Państwo szukają?</h2><svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+      <p>Największa część naszych ofert to Dębica i powiat dębicki, ale prowadzimy też sprzedaż w Ropczycach, Pilźnie i okolicznych wsiach.</p>
+    </div>
+    <div class="kategorie">
+      <a class="kat" href="#oferty"><img src="img/oferta-1044-s.webp" width="560" height="259" alt="Nowy dom parterowy w Straszęcinie" loading="lazy"><div class="kat-opis"><h3>Domy</h3><p>sprzedaż i wynajem</p></div></a>
+      <a class="kat" href="#oferty"><img src="img/oferta-1038-s.webp" width="560" height="258" alt="Pokój dzienny w mieszkaniu przy ul. Fredry w Dębicy" loading="lazy"><div class="kat-opis"><h3>Mieszkania</h3><p>sprzedaż i wynajem</p></div></a>
+      <a class="kat" href="#oferty"><img src="img/oferta-1015-s.webp" width="560" height="281" alt="Działki budowlane w Dębicy z lotu ptaka" loading="lazy"><div class="kat-opis"><h3>Działki</h3><p>Dębica i okolice</p></div></a>
+      <a class="kat" href="#oferty"><img src="img/oferta-1025-s.webp" width="560" height="390" alt="Kamienica w Rynku w Dębicy" loading="lazy"><div class="kat-opis"><h3>Lokale</h3><p>usługowe i biurowe</p></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja szara" id="oferty" aria-labelledby="of-t">
+  <div class="wrap">
+    <div class="tytul">
+      <div><h2 id="of-t">Aktualne oferty</h2><svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+      <div class="strzalki">
+        <button type="button" data-kier="-1" aria-label="Poprzednie oferty"><svg viewBox="0 0 20 14" aria-hidden="true"><path d="M20 7H2M7 1 1 7l6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+        <button type="button" data-kier="1" aria-label="Następne oferty"><svg viewBox="0 0 20 14" aria-hidden="true"><path d="M0 7h18M13 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+      </div>
+    </div>
+    <div class="karuzela">
+      <div class="tor" id="tor">
+        <article class="oferta"><figure><img src="img/oferta-1045-s.webp" srcset="img/oferta-1045-s.webp 560w, img/oferta-1045.webp 1040w" sizes="400px" width="560" height="258" alt="Dom w Podgrodziu" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Podgrodzie</p><h3>Komfortowy dom na dużej działce</h3><dl><div><dt>Powierzchnia</dt><dd>130 m²</dd></div><div><dt>Pokoje</dt><dd>5</dd></div></dl><p class="cena">1 290 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1044-s.webp" srcset="img/oferta-1044-s.webp 560w, img/oferta-1044.webp 1039w" sizes="400px" width="560" height="259" alt="Nowy dom w Straszęcinie" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Straszęcin</p><h3>Nowy dom parterowy do wykończenia</h3><dl><div><dt>Powierzchnia</dt><dd>133 m²</dd></div><div><dt>Pokoje</dt><dd>4</dd></div></dl><p class="cena">720 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1038-s.webp" srcset="img/oferta-1038-s.webp 560w, img/oferta-1038.webp 1040w" sizes="400px" width="560" height="258" alt="Mieszkanie przy ul. Fredry w Dębicy" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Mieszkanie, Dębica, ul. Fredry</p><h3>Trzy pokoje, 60,3 m²</h3><dl><div><dt>Powierzchnia</dt><dd>60 m²</dd></div><div><dt>Pokoje</dt><dd>3</dd></div></dl><p class="cena">375 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1023-s.webp" srcset="img/oferta-1023-s.webp 560w, img/oferta-1023.webp 1040w" sizes="400px" width="560" height="258" alt="Dom w Lubzinie" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Lubzina</p><h3>Dom z dużą działką</h3><dl><div><dt>Powierzchnia</dt><dd>140 m²</dd></div><div><dt>Pokoje</dt><dd>5</dd></div></dl><p class="cena">949 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1047-s.webp" srcset="img/oferta-1047-s.webp 560w, img/oferta-1047.webp 1040w" sizes="400px" width="560" height="258" alt="Kuchnia w mieszkaniu przy ul. Sienkiewicza" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Mieszkanie, Dębica, ul. Sienkiewicza</p><h3>Dwa pokoje, 38,7 m²</h3><dl><div><dt>Powierzchnia</dt><dd>39 m²</dd></div><div><dt>Pokoje</dt><dd>2</dd></div></dl><p class="cena">251 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1029-s.webp" srcset="img/oferta-1029-s.webp 560w, img/oferta-1029.webp 1040w" sizes="400px" width="560" height="258" alt="Dom w Dobrkowie" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Parkosz - Dobrków</p><h3>Dom w zabudowie bliźniaczej</h3><dl><div><dt>Powierzchnia</dt><dd>95 m²</dd></div><div><dt>Pokoje</dt><dd>3</dd></div></dl><p class="cena">549 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1046-s.webp" srcset="img/oferta-1046-s.webp 560w, img/oferta-1046.webp 1040w" sizes="400px" width="560" height="258" alt="Dom w Lipinach w stanie surowym otwartym" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Lipiny, gm. Pilzno</p><h3>Dom w stanie surowym otwartym</h3><dl><div><dt>Powierzchnia</dt><dd>127 m²</dd></div><div><dt>Pokoje</dt><dd>5</dd></div></dl><p class="cena">399 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1030-s.webp" srcset="img/oferta-1030-s.webp 560w, img/oferta-1030.webp 1040w" sizes="400px" width="560" height="258" alt="Dom w zabudowie szeregowej w Dębicy" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Dom, Dębica</p><h3>Dom w zabudowie szeregowej</h3><dl><div><dt>Powierzchnia</dt><dd>130 m²</dd></div><div><dt>Pokoje</dt><dd>4</dd></div></dl><p class="cena">499 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1025-s.webp" srcset="img/oferta-1025-s.webp 560w, img/oferta-1025.webp 690w" sizes="400px" width="560" height="390" alt="Kamienica w Rynku w Dębicy" loading="lazy" style="aspect-ratio:13/6"></figure><div class="oferta-in"><p class="gdzie">Kamienica, Dębica, Rynek</p><h3>Kamienica w Rynku na sprzedaż</h3><dl><div><dt>Powierzchnia</dt><dd>320 m²</dd></div><div><dt>Pokoje</dt><dd>7</dd></div></dl><p class="cena">2 450 000 zł</p></div></article>
+        <article class="oferta"><figure><img src="img/oferta-1015-s.webp" srcset="img/oferta-1015-s.webp 560w, img/oferta-1015.webp 857w" sizes="400px" width="560" height="281" alt="Działka przy ul. Zielonej w Dębicy" loading="lazy"></figure><div class="oferta-in"><p class="gdzie">Działka, Dębica, ul. Zielona</p><h3>Działka budowlana, 7 arów</h3><dl><div><dt>Powierzchnia</dt><dd>706 m²</dd></div></dl><p class="cena">199 000 zł</p></div></article>
+      </div>
+    </div>
+    <div class="pod-tor">
+      <p style="margin:0;color:var(--szary)">Na docelowej stronie oferty będą wczytywane automatycznie z programu biura, z wyszukiwarką i osobną podstroną każdej nieruchomości.</p>
+      <a class="btn btn-jasny" href="#kontakt">Zapytaj o ofertę</a>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="sprzedaz" aria-labelledby="sp-t">
+  <div class="wrap dwie">
+    <div>
+      <h2 id="sp-t">Sprzedają Państwo dom, mieszkanie albo działkę?</h2>
+      <svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+      <p style="margin-top:24px">Zajmujemy się całą sprzedażą: wyceną, zdjęciami i filmem z drona, ogłoszeniami w portalach, prezentacjami dla kupujących oraz sprawami u notariusza, geodety, architekta, rzeczoznawcy i w urzędach.</p>
+      <div class="warunki">
+        <div><b>1,23%</b><span>prowizji, nie mniej niż 2 460 zł</span></div>
+        <div><b>0,5 mln zł</b><span>ubezpieczenie każdej transakcji</span></div>
+        <div><b>nr 227</b><span>licencja pośrednika z 1999 roku</span></div>
+        <div><b>od 1992</b><span>pierwsza agencja w Dębicy</span></div>
+      </div>
+      <a class="btn" href="#kontakt">Zgłoś nieruchomość do sprzedaży</a>
+    </div>
+    <div class="szukamy">
+      <h3>Pilnie poszukujemy dla naszych klientów</h3>
+      <ul class="dach">
+        <li>mieszkań o powierzchni 18-40 m², także do remontu generalnego,</li>
+        <li>działek budowlanych w Dębicy, mniejszych i większych z możliwością podziału,</li>
+        <li>działki ok. 50 arów w Dębicy lub okolicy pod budowę hali,</li>
+        <li>działek pod usługi handlowe od 15 arów, przy głównej drodze, z mediami,</li>
+        <li>gruntów w powiecie dębickim powyżej 1,5 ha.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja szara" id="inwestycje" aria-labelledby="in-t">
+  <div class="wrap">
+    <div class="tytul">
+      <div><h2 id="in-t">Nowe domy parterowe od dewelopera</h2><svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+      <p>Od 2008 roku budujemy domy pod nazwą PHU Leśna. Wybudowaliśmy już ponad 60 domów wolnostojących i szeregowych.</p>
+    </div>
+    <div class="inwest">
+      <figure><img src="img/dom-parterowy-1-1024.webp" srcset="img/dom-parterowy-1-640.webp 640w, img/dom-parterowy-1-1024.webp 1024w" sizes="(max-width:899px) 100vw, 620px" width="1024" height="683" alt="Wizualizacja domu parterowego z garażem" loading="lazy"></figure>
+      <figure><img src="img/straszecin-z-drona-1000.webp" srcset="img/straszecin-z-drona-640.webp 640w, img/straszecin-z-drona-1000.webp 1000w" sizes="(max-width:899px) 100vw, 620px" width="1000" height="569" alt="Wybudowane domy parterowe w Straszęcinie z lotu ptaka" loading="lazy"></figure>
+    </div>
+    <div class="inwest-tekst">
+      <div>
+        <h3 style="margin-bottom:12px">Wszystko na jednym poziomie</h3>
+        <p>Za sugestią klientów budujemy głównie domy parterowe: bez schodów, skosów i okien dachowych, wygodne dla starszych domowników, osób z niepełnosprawnością i rodzin z małymi dziećmi. Instalacje wentylacji, klimatyzacji czy fotowoltaiki łatwo poprowadzić na stropie.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:12px">Dom według Państwa potrzeb</h3>
+        <ul class="dach">
+          <li>na etapie budowy można zmienić układ pomieszczeń, okna i drzwi,</li>
+          <li>dom oddajemy wykończony z zewnątrz, wnętrze wykańczają Państwo sami,</li>
+          <li>zakup na fakturę VAT, bez 2% podatku od czynności cywilnoprawnych.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja dron" id="z-drona" aria-labelledby="dr-t">
+  <div class="wrap">
+    <div class="tytul">
+      <div><h2 id="dr-t">Dębica z drona</h2><svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+      <p>Mamy uprawnienia UAVO Urzędu Lotnictwa Cywilnego. Filmujemy z powietrza nieruchomości, które sprzedajemy, i samo miasto.</p>
+    </div>
+    <div class="dron-uklad">
+      <figure><img src="img/debica-kosciol-1200.webp" srcset="img/debica-kosciol-800.webp 800w, img/debica-kosciol-1200.webp 1200w, img/debica-kosciol-1920.webp 1920w" sizes="(max-width:899px) 100vw, 900px" width="1920" height="830" alt="Centrum Dębicy z lotu ptaka w słoneczny dzień" loading="lazy"><figcaption>Centrum Dębicy, kadr z naszego filmu</figcaption></figure>
+      <div class="dron-bok">
+        <figure><img src="img/debica-noca-800.webp" srcset="img/debica-noca-800.webp 800w, img/debica-noca-1200.webp 1200w" sizes="(max-width:899px) 100vw, 470px" width="1200" height="519" alt="Dębica nocą z lotu ptaka" loading="lazy"><figcaption>Dębica nocą</figcaption></figure>
+        <div class="dron-info">
+          <p>Film z drona pokazuje kupującemu to, czego nie widać na zdjęciach: dojazd, sąsiedztwo, kształt działki i odległość do centrum.</p>
+          <p style="margin:0">Na stronie są nasze filmy: Rynek, Dębica nocą i zimą, most w Grabinach, budowa lądowiska przy szpitalu.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="o-nas" aria-labelledby="on-t">
+  <div class="wrap">
+    <div class="tytul">
+      <div><h2 id="on-t">Pierwsza agencja nieruchomości w Dębicy</h2><svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+    </div>
+    <p class="cytat">Działamy od 1992 roku. Prowadzimy kupno, sprzedaż i wycenę nieruchomości, a przez lata setki transakcji nauczyły nas, że każda nowa oferta to osobna historia.</p>
+    <div class="fakty">
+      <div><h3>Licencja i zrzeszenia</h3><p>Licencja nr 227 z 1999 roku. Należymy do Polskiej Federacji Rynku Nieruchomości i Małopolskiego Stowarzyszenia Pośredników w Obrocie Nieruchomościami.</p></div>
+      <div><h3>Ubezpieczenie</h3><p>Każda transakcja jest ubezpieczona do 0,5 mln zł (OC pośrednika, polisa w Generali).</p></div>
+      <div><h3>Joanna i Andrzej Sroka</h3><p>Biuro prowadzimy sami, więc z każdym klientem rozmawia ta sama osoba od pierwszego telefonu do aktu notarialnego.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja szara" id="kontakt" aria-labelledby="ko-t">
+  <div class="wrap kontakt-uklad">
+    <div class="dane">
+      <h2 id="ko-t">Zapraszamy do biura w Rynku</h2>
+      <svg class="krokiew" viewBox="0 0 88 14" aria-hidden="true"><path d="M0 12h30L44 2l14 10h30" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+      <p style="margin-top:24px">Agencja Nieruchomości ROTEX<br>Rynek 18, 39-200 Dębica<br>obok salonu Optyk, po stronie Rzemieślnika</p>
+      <p><a class="tel" href="tel:+48509867627">509 867 627</a><a class="tel" href="tel:+48501530661">501 530 661</a></p>
+      <p><a href="mailto:anrotex@interia.pl">anrotex@interia.pl</a></p>
+      <p>Poniedziałek - piątek, 10:00-16:00.<br>Po godzinach pracy po wcześniejszym umówieniu telefonicznym.</p>
+      <div class="mapa" id="mapa"><button class="btn" type="button" id="mapa-btn">Pokaż mapę dojazdu</button></div>
+    </div>
+    <form id="formularz" novalidate>
+      <h3 style="font-size:1.3rem;margin-bottom:6px">Napisz do nas</h3>
+      <p style="color:var(--szary);font-size:.95rem">Odpowiadamy w dniu roboczym.</p>
+      <div class="pola">
+        <div><label for="f-imie">Imię i nazwisko</label><input id="f-imie" name="imie" autocomplete="name"></div>
+        <div><label for="f-tel">Telefon</label><input id="f-tel" name="telefon" type="tel" autocomplete="tel"></div>
+        <div class="cale"><label for="f-sprawa">Sprawa</label><select id="f-sprawa" name="sprawa"><option>Chcę kupić</option><option>Chcę sprzedać</option><option>Chcę wynająć</option><option>Wycena nieruchomości</option><option>Nowy dom od dewelopera</option></select></div>
+        <div class="cale"><label for="f-tresc">Wiadomość</label><textarea id="f-tresc" name="tresc" placeholder="np. numer oferty albo czego szukam"></textarea></div>
+        <label class="zgoda cale"><input type="checkbox" name="zgoda">Wyrażam zgodę na kontakt w sprawie zapytania. Administratorem danych jest Agencja Nieruchomości ROTEX.</label>
+      </div>
+      <button class="btn" type="submit" style="margin-top:18px">Wyślij wiadomość</button>
+      <p class="komunikat" id="komunikat" hidden>To podgląd strony, formularz zacznie wysyłać wiadomości po wdrożeniu.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="stopka-siatka">
+      <div><h3>ROTEX Nieruchomości</h3><p style="margin:0">Agencja Nieruchomości ROTEX<br>Joanna i Andrzej Sroka<br>Rynek 18, 39-200 Dębica</p></div>
+      <div><h3>Oferty</h3><ul><li><a href="#oferty">Domy</a></li><li><a href="#oferty">Mieszkania</a></li><li><a href="#oferty">Działki</a></li><li><a href="#oferty">Lokale</a></li></ul></div>
+      <div><h3>Biuro</h3><ul><li><a href="#inwestycje">Nowe domy</a></li><li><a href="#sprzedaz">Sprzedaj z nami</a></li><li><a href="#z-drona">Dębica z drona</a></li><li><a href="#o-nas">O nas</a></li></ul></div>
+      <div><h3>Kontakt</h3><ul><li><a href="tel:+48509867627">509 867 627</a></li><li><a href="tel:+48501530661">501 530 661</a></li><li><a href="mailto:anrotex@interia.pl">anrotex@interia.pl</a></li><li>pon.-pt. 10-16</li></ul></div>
+    </div>
+    <div class="stopka-dol">
+      <span>&copy; <span id="rok">2026</span> ROTEX Nieruchomości &middot; <a href="#">Polityka prywatności</a></span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=rotex-debica.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="mob" id="mob"><a class="btn btn-zloty" href="tel:+48501530661">Zadzwoń</a><a class="btn" href="#oferty">Oferty</a></div>
+
+<div class="cookies" id="cookies" hidden>
+  <p>Używamy plików cookies niezbędnych do działania strony. Mapę Google wczytujemy dopiero po kliknięciu.</p>
+  <button class="btn" type="button" id="cookies-ok">Rozumiem</button>
+</div>
+<script>
+(function(){var c=document.getElementById('cookies');try{if(!localStorage.getItem('rotex-cookies'))c.hidden=false}catch(e){c.hidden=false}
+document.getElementById('cookies-ok').onclick=function(){c.hidden=true;try{localStorage.setItem('rotex-cookies','1')}catch(e){}}})();
+</script>
+<script defer src="main.js"></script>
+</body>
+</html>
